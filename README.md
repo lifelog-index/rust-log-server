@@ -28,5 +28,18 @@ curl -X POST http://localhost:8080 -d '{
 }'
 ```
 
+Example output directory:
+
+```
+example_system/
+├── test_user/
+│   ├── log_1.log
+│   ├── log_2.log
+│   ├── ...
+│   └── artifacts/
+│       └── artifact_####.txt
+```
+
+
 For more information, see the stress test script `stress_test.py` written in Python.
 
