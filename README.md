@@ -23,6 +23,7 @@ curl -X POST http://localhost:8080 -d '{
     "timestamp": "2021-01-01T00:00:00Z",
     "system_name": "example_system",
     "username": "test_user",
+    "service_name": "example_service",
     "interaction_type": "test_interaction",
     "value": {"key": "A very long string here that exceeds 5MB to test artifact separation"}
 }'

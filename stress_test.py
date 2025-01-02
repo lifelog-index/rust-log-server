@@ -41,6 +41,7 @@ log_data = {
     "timestamp": "",
     "system_name": "test_system",
     "username": "test_user",
+    "service_name": "test_service",
     "interaction_type": "file_upload",
     "value": {"file": ""},
 }

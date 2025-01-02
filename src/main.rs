@@ -12,6 +12,7 @@ struct LogEntry {
     timestamp: String,
     system_name: String,
     username: String,
+    service_name: String,
     interaction_type: String,
     value: serde_json::Value,
     is_file: Option<bool>,
